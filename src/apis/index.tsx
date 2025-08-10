@@ -1,0 +1,20 @@
+const url = "http://192.168.100.10:5000";
+export const baseUrl = "http://192.168.100.10:5000";
+
+export const SignupApi = url + "/Signup";
+export const LoginApi = url + "/Login";
+export const sendOtp = url + "/sendOtp";
+export const verifyOtp = url + "/verifyOtp";
+export const updatePassword = url + "/updatePassword";
+export const addPost = url + "/addPost";
+export const getPosts = url + "/getPosts";
+export const likeDislikePost = url + "/likeDislikePost";
+export const postComment = url + "/postComment";
+export const getProfilePosts = url + "/getProfilePosts";
+export const getUsers = url + "/getUsers";
+export const searchPosts = url + "/searchPosts";
+export const searchUsers = url + "/searchUsers";
+export const followerApi = url + "/followerApi";
+export const postStory = url + "/postStory";
+export const getYourStory = url + "/getYourStory";
+export const allStories = url + "/allStories";
